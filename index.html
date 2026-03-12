@@ -1,18 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../image-12.webp" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>landing page</title>
-</head>
-<body>
-    <div class="main">
-        <h1 class="hedding">Black Dodge Challenger Coupe</h1>
-    <p class="paregrap">STILL THE WORLD’S MOST POWERFUL MUSCLE CAR</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PulseUI — a modern static frontend starter with trendy visual design, smooth layout, and responsive sections."
+    />
+    <title>PulseUI — Modern Frontend Starter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
 
-    <button>explore more</button>
-  </div>
-</body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">PulseUI</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-small" href="#contact">Get Started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <span class="eyebrow">✨ 2026 Trend-Ready Design</span>
+        <h1>Build a cool, responsive static frontend in minutes.</h1>
+        <p>
+          PulseUI is a polished one-page template crafted for modern product launches.
+          Clean typography, glass effects, and smooth responsive spacing are included.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#pricing">Start Free</a>
+          <a class="btn btn-ghost" href="#showcase">See Demo</a>
+        </div>
+        <ul class="stats" aria-label="Project stats">
+          <li><strong>40+</strong><span>Reusable blocks</span></li>
+          <li><strong>99%</strong><span>Mobile optimized</span></li>
+          <li><strong>1 day</strong><span>From idea to live</span></li>
+        </ul>
+      </section>
+
+      <section class="features container" id="features">
+        <article class="card">
+          <h2>Modern Visual Language</h2>
+          <p>Gradient highlights, subtle blur, and layered cards that feel premium.</p>
+        </article>
+        <article class="card">
+          <h2>Responsive by Default</h2>
+          <p>Fluid spacing and breakpoints so your page looks great on every screen.</p>
+        </article>
+        <article class="card">
+          <h2>Easy to Customize</h2>
+          <p>Simple structure with clear classes for fast edits without frameworks.</p>
+        </article>
+      </section>
+
+      <section class="showcase container" id="showcase">
+        <div class="panel large">
+          <h3>Component-First Layout</h3>
+          <p>Sections are organized in reusable blocks to scale your static project quickly.</p>
+        </div>
+        <div class="panel">
+          <h3>Fast Loading</h3>
+          <p>No build tools required. Just HTML, CSS, and a tiny script.</p>
+        </div>
+        <div class="panel">
+          <h3>Accessible Basics</h3>
+          <p>Semantic tags, keyboard-friendly nav, and readable contrast levels.</p>
+        </div>
+      </section>
+
+      <section class="pricing container" id="pricing">
+        <h2>Simple pricing for any idea</h2>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="price">$0<span>/month</span></p>
+            <ul>
+              <li>Single landing page</li>
+              <li>Core components</li>
+              <li>Community updates</li>
+            </ul>
+            <a href="#contact" class="btn btn-block">Use Starter</a>
+          </article>
+          <article class="price-card highlighted">
+            <p class="tag">Most Popular</p>
+            <h3>Pro</h3>
+            <p class="price">$19<span>/month</span></p>
+            <ul>
+              <li>All starter features</li>
+              <li>Advanced sections</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#contact" class="btn btn-block">Go Pro</a>
+          </article>
+          <article class="price-card">
+            <h3>Team</h3>
+            <p class="price">$49<span>/month</span></p>
+            <ul>
+              <li>Unlimited pages</li>
+              <li>Team collaboration kit</li>
+              <li>Dedicated success manager</li>
+            </ul>
+            <a href="#contact" class="btn btn-block">Contact Sales</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq container" id="faq">
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>Can I use this as a starting point for client projects?</summary>
+          <p>Yes. It is intentionally framework-free and easy to customize for any niche.</p>
+        </details>
+        <details>
+          <summary>Do I need any build tools?</summary>
+          <p>No. Open <code>index.html</code> directly or host it as a static site.</p>
+        </details>
+        <details>
+          <summary>Is this mobile-friendly?</summary>
+          <p>Yes. The layout is fully responsive with a collapsible mobile navigation.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-wrap">
+        <p>© 2026 PulseUI. Built as a modern static frontend project.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
